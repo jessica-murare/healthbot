@@ -8,7 +8,7 @@ This is a healthcare chatbot built with [Rasa](https://rasa.com/). It can answer
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/healthcare-chatbot.git
+    git clone https://github.com/jessica-murare/healthcare-chatbot.git
     cd healthcare-chatbot
     ```
 
