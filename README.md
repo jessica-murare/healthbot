@@ -4,21 +4,37 @@ This is a healthcare chatbot built with [Rasa](https://rasa.com/). It can answer
 
 ## Setup
 
+**Note:** Please use Python 3.10 for this project.
+
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/your-username/healthcare-chatbot.git
     cd healthcare-chatbot
     ```
 
-2.  **Create a virtual environment:**
+2.  **Install uv:**
     ```bash
-    python -m venv .venv
+    # On macOS and Linux
+    curl -LsSf https://astral.sh/uv/install.sh | sh
+
+    # On Windows
+    powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+    ```
+
+3.  **Create a virtual environment:**
+    ```bash
+    uv venv --python 3.10
     source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
     ```
 
-3.  **Install dependencies:**
+    **Install rasa:**
     ```bash
-    pip install -r requirements.txt
+    uv pip install rasa
+    ```
+
+4.  **Install dependencies:**
+    ```bash
+    uv pip install -r requirements.txt
     ```
 
 ## Usage
