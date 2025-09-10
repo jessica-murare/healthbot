@@ -1,0 +1,44 @@
+{
+  "vaccines": {
+    "polio": {
+      "schedule": {
+        "english": "Polio vaccine (OPV/IPV) schedule: Birth dose, 6 weeks, 10 weeks, 14 weeks, and booster at 16-24 months. Additional doses during campaigns.",
+        "hindi": "पोलियो टीका (OPV/IPV) कार्यक्रम: जन्म के समय, 6 सप्ताह, 10 सप्ताह, 14 सप्ताह, और 16-24 महीने में बूस्टर। अभियानों के दौरान अतिरिक्त खुराक।"
+      },
+      "importance": {
+        "english": "Polio vaccination is crucial to prevent paralysis and ensure community immunity.",
+        "hindi": "लकवा से बचने और सामुदायिक प्रतिरक्षा के लिए पोलियो टीकाकरण महत्वपूर्ण है।"
+      }
+    },
+    "measles": {
+      "schedule": {
+        "english": "Measles vaccine (MR/MMR): First dose at 9-12 months, second dose at 16-24 months. Catch-up campaigns for missed children.",
+        "hindi": "खसरा टीका (MR/MMR): पहली खुराक 9-12 महीने में, दूसरी खुराक 16-24 महीने में। छूटे हुए बच्चों के लिए कैच-अप अभियान।"
+      },
+      "importance": {
+        "english": "Measles vaccination prevents serious complications including brain damage and death.",
+        "hindi": "खसरा टीकाकरण से दिमागी नुकसान और मृत्यु सहित गंभीर जटिलताओं से बचाव होता है।"
+      }
+    },
+    "hepatitis": {
+      "schedule": {
+        "english": "Hepatitis B vaccine: Birth dose within 24 hours, then at 6 weeks, 10 weeks, and 14 weeks with DPT.",
+        "hindi": "हेपेटाइटिस बी टीका: जन्म के 24 घंटे में, फिर 6 सप्ताह, 10 सप्ताह, और 14 सप्ताह में DPT के साथ।"
+      },
+      "importance": {
+        "english": "Hepatitis B vaccination protects against liver infection and liver cancer.",
+        "hindi": "हेपेटाइटिस बी टीकाकरण से लिवर के संक्रमण और कैंसर से बचाव होता है।"
+      }
+    },
+    "bcg": {
+      "schedule": {
+        "english": "BCG vaccine: Single dose at birth or as early as possible within 1 year of age.",
+        "hindi": "BCG टीका: जन्म के समय या 1 साल की उम्र में जितनी जल्दी हो सके एक खुराक।"
+      },
+      "importance": {
+        "english": "BCG vaccination provides protection against severe forms of tuberculosis in children.",
+        "hindi": "BCG टीकाकरण से बच्चों में टीबी के गंभीर रूप से बचाव होता है।"
+      }
+    }
+  }
+}

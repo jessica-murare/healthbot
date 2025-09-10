@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+env/
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Rasa cache
+.rasa/cache/
+
+# Rasa models (you can choose to keep them in git if small or important)
+models/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+credentials.yml
+
+# Other files you might not want in Git
+*.tar.gz

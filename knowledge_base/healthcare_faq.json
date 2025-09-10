@@ -1,0 +1,38 @@
+{
+  "preventive_tips": {
+    "malaria": {
+      "english": "To prevent malaria: Use mosquito nets, apply repellents, eliminate standing water, wear long sleeves during evening hours, and take prescribed antimalarial medication if traveling to endemic areas.",
+      "hindi": "मलेरिया से बचाव: मच्छरदानी का उपयोग करें, रिपेलेंट लगाएं, रुके हुए पानी को हटाएं, शाम के समय फुल बांह के कपड़े पहनें, और स्थानिक क्षेत्रों में जाते समय निर्धारित दवा लें।"
+    },
+    "dengue": {
+      "english": "Dengue prevention: Remove standing water from containers, use mosquito repellents, wear protective clothing, use air conditioning or window screens, and maintain good sanitation.",
+      "hindi": "डेंगू से बचाव: बर्तनों से रुका हुआ पानी हटाएं, मच्छर भगाने वाली दवा का उपयोग करें, सुरक्षात्मक कपड़े पहनें, एसी या जाली का उपयोग करें, और सफाई बनाए रखें।"
+    },
+    "tuberculosis": {
+      "english": "TB prevention: Maintain good ventilation, avoid crowded places, maintain hygiene, eat nutritious food, exercise regularly, and get vaccinated (BCG).",
+      "hindi": "टीबी से बचाव: अच्छी हवा का प्रबंध रखें, भीड़भाड़ वाली जगहों से बचें, साफ-सफाई रखें, पौष्टिक भोजन लें, नियमित व्यायाम करें, और BCG टीका लगवाएं।"
+    },
+    "diabetes": {
+      "english": "Diabetes prevention: Maintain healthy weight, exercise regularly, eat balanced diet, limit sugar intake, avoid processed foods, and get regular check-ups.",
+      "hindi": "डायबिटीज से बचाव: स्वस्थ वजन बनाए रखें, नियमित व्यायाम करें, संतुलित आहार लें, चीनी कम खाएं, प्रोसेस्ड फूड से बचें, और नियमित जांच कराएं।"
+    }
+  },
+  "symptoms": {
+    "malaria": {
+      "english": "Malaria symptoms include: High fever with chills, severe headache, sweating, fatigue, nausea, vomiting, muscle pain, and sometimes diarrhea. Symptoms appear 10-15 days after mosquito bite.",
+      "hindi": "मलेरिया के लक्षण: कंपकंपी के साथ तेज बुखार, सिरदर्द, पसीना, थकान, जी मिचलाना, उल्टी, मांसपेशियों में दर्द, और कभी-कभी दस्त। लक्षण मच्छर काटने के 10-15 दिन बाद दिखते हैं।"
+    },
+    "dengue": {
+      "english": "Dengue symptoms: High fever, severe headache, pain behind eyes, muscle and joint pain, skin rash, nausea, vomiting. Warning signs: severe abdominal pain, persistent vomiting, bleeding.",
+      "hindi": "डेंगू के लक्षण: तेज बुखार, सिरदर्द, आंखों के पीछे दर्द, मांसपेशियों और जोड़ों में दर्द, त्वचा पर दाने, जी मिचलाना, उल्टी। खतरे के संकेत: पेट में तेज दर्द, लगातार उल्टी, खून निकलना।"
+    },
+    "tuberculosis": {
+      "english": "TB symptoms: Persistent cough (>3 weeks), coughing up blood, chest pain, weight loss, night sweats, fever, fatigue, loss of appetite.",
+      "hindi": "टीबी के लक्षण: लगातार खांसी (3 सप्ताह से ज्यादा), खून के साथ खांसी, छाती में दर्द, वजन कम होना, रात को पसीना, बुखार, थकान, भूख न लगना।"
+    },
+    "diabetes": {
+      "english": "Diabetes symptoms: Excessive thirst, frequent urination, unexplained weight loss, fatigue, blurred vision, slow-healing wounds, frequent infections.",
+      "hindi": "डायबिटीज के लक्षण: अधिक प्यास लगना, बार-बार पेशाब आना, अकारण वजन कम होना, थकान, धुंधला दिखना, घाव का देरी से भरना, बार-बार इन्फेक्शन।"
+    }
+  }
+}

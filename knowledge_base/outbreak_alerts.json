@@ -1,0 +1,35 @@
+{
+  "current_outbreaks": {
+    "Delhi": {
+      "disease": "Dengue",
+      "severity": "High",
+      "date": "2024-09-01",
+      "message": {
+        "english": "⚠️ ALERT: High dengue outbreak reported in Delhi. Take immediate prevention measures. Eliminate standing water and use repellents.",
+        "hindi": "⚠️ चेतावनी: दिल्ली में डेंगू का अधिक प्रकोप दर्ज किया गया है। तुरंत बचाव के उपाय करें। रुका हुआ पानी हटाएं और रिपेलेंट का उपयोग करें।"
+      }
+    },
+    "Mumbai": {
+      "disease": "Malaria", 
+      "severity": "Medium",
+      "date": "2024-08-25",
+      "message": {
+        "english": "⚠️ Malaria cases increasing in Mumbai. Use mosquito nets and seek medical help for fever symptoms.",
+        "hindi": "⚠️ मुंबई में मलेरिया के मामले बढ़ रहे हैं। मच्छरदानी का उपयोग करें और बुखार के लक्षणों के लिए डॉक्टर से सलाह लें।"
+      }
+    },
+    "Lucknow": {
+      "disease": "Chikungunya",
+      "severity": "Medium", 
+      "date": "2024-08-30",
+      "message": {
+        "english": "⚠️ Chikungunya outbreak detected in Lucknow. Prevent mosquito breeding and consult doctor for joint pain and fever.",
+        "hindi": "⚠️ लखनऊ में चिकनगुनिया का प्रकोप पाया गया है। मच्छरों का प्रजनन रोकें और जोड़ों के दर्द व बुखार के लिए डॉक्टर से सलाह लें।"
+      }
+    }
+  },
+  "general_advisory": {
+    "english": "Stay updated with local health department advisories. Maintain hygiene, use preventive measures, and seek immediate medical attention for symptoms.",
+    "hindi": "स्थानीय स्वास्थ्य विभाग की सलाह से अपडेट रहें। साफ-सफाई रखें, बचाव के उपाय करें, और लक्षणों के लिए तुरंत डॉक्टर से मिलें।"
+  }
+}

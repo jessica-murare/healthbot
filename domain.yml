@@ -1,0 +1,71 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - preventive_tips
+  - symptoms_info
+  - vaccination_schedule
+  - outbreak_alert
+  - fallback
+
+entities:
+  - disease
+  - vaccine
+  - location
+  - age
+
+slots:
+  disease:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: disease
+
+  vaccine:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: vaccine
+
+  location:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: location
+
+  age:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: age
+
+  original_text:
+    type: text
+    mappings:
+      - type: from_text
+
+
+responses:
+  utter_greet:
+    - text: "Namaste! I'm HealthBot — I can help with preventive health tips, symptoms, vaccinations, and outbreak alerts. How can I help you?"
+  utter_goodbye:
+    - text: "Goodbye — stay healthy! If you need any more info, just ask."
+  utter_ask_disease:
+    - text: "Which disease do you want information about? (e.g., malaria, dengue, TB)"
+  utter_ask_vaccine:
+    - text: "Which vaccine are you asking about?"
+  utter_default:
+    - text: "Sorry, I didn't understand. Can you please rephrase?"
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - action_provide_symptoms_info
+  - action_provide_preventive_tips
+  - action_provide_vaccination_schedule
+  - action_check_outbreak_alert
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

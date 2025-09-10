@@ -1,0 +1,31 @@
+version: "3.1"
+stories:
+- story: greet path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: symptoms info path
+  steps:
+  - intent: symptoms_info
+  - action: action_provide_symptoms_info
+
+- story: preventive tips path
+  steps:
+  - intent: preventive_tips
+  - action: action_provide_preventive_tips
+
+- story: vaccination schedule path
+  steps:
+  - intent: vaccination_schedule
+  - action: action_provide_vaccination_schedule
+
+- story: outbreak check
+  steps:
+  - intent: outbreak_alert
+  - action: action_check_outbreak_alert
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

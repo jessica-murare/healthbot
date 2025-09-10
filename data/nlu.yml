@@ -1,0 +1,62 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - namaste
+    - नमस्ते
+    - hey
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - अलविदा
+    - फिर मिलेंगे
+
+- intent: preventive_tips
+  examples: |
+    - How can I avoid [malaria](disease)?
+    - How to prevent [dengue](disease)?
+    - What should I do to prevent [TB](disease)?
+    - मलेरिया से कैसे बचें?
+    - डेंगू से बचाव के तरीके बताइए
+    - preventive tips for [diabetes](disease)
+    - how to prevent [covid](disease)
+
+- intent: symptoms_info
+  examples: |
+    - What are the symptoms of [malaria](disease)?
+    - Symptoms of [dengue](disease)
+    - Tell me about [tuberculosis](disease)
+    - [malaria](disease) symptoms
+    - [dengue](disease) information
+    - [TB](disease) symptoms
+    - [diabetes](disease)
+    - [covid](disease)
+    - मलेरिया के लक्षण क्या हैं?
+    - डेंगू के लक्षण बताइए
+
+- intent: vaccination_schedule
+  examples: |
+    - When should I take [polio](vaccine) vaccine?
+    - [Polio](vaccine) vaccine schedule
+    - At what age to take [measles](vaccine) vaccine?
+    - [BCG](vaccine) vaccination
+    - पोलियो का टीका कब लगवाना चाहिए?
+    - मीजल्स का टीकाकरण कब करना है?
+
+- intent: outbreak_alert
+  examples: |
+    - Is there an outbreak in Lucknow?
+    - Any [dengue](disease) outbreak nearby?
+    - [malaria](disease) outbreak
+    - Lucknow में कोई महामारी है क्या?
+    - क्या लखनऊ में डेंगू का प्रकोप है?
+
+- intent: fallback
+  examples: |
+    - asdfasdf
+    - I don't know
